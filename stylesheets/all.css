@@ -383,29 +383,32 @@ html {
 body {
   background: #fcfcfc;
   font-family: "Oxygen", sans-serif;
+  padding: 0.75em;
   color: #555555;
   text-align: center; }
 
-/* line 37, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+/* line 38, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
 h1 {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   color: #0075bf;
-  margin: 3em 0 0;
-  font-weight: 700; }
-  /* line 42, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  margin: 1em 0 0;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 2em; }
+  /* line 44, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   h1::before {
     content: "\e603";
     font-family: "icomoon";
     display: block;
-    font-size: 1.375em;
-    line-height: 2.18182em;
+    font-size: 1.75em;
+    line-height: 1.71429em;
     -webkit-animation: welcome 1s;
     -moz-animation: welcome 1s;
     -ms-animation: welcome 1s;
     -o-animation: welcome 1s;
     animation: welcome 1s; }
 
-/* line 49, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+/* line 51, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
 p {
   color: #bbbbbb;
   margin: 2em 0;
@@ -413,14 +416,14 @@ p {
   line-height: 1.5em;
   font-weight: 200; }
 
-/* line 55, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+/* line 57, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
 .welcome {
   -webkit-animation: welcome 1s;
   -moz-animation: welcome 1s;
   -ms-animation: welcome 1s;
   -o-animation: welcome 1s;
   animation: welcome 1s; }
-  /* line 58, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 60, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   .welcome > a {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -435,146 +438,146 @@ p {
     border-radius: 0.75em;
     padding: 0.75em;
     margin: 0.75em auto;
-    width: 25em;
+    width: 18em;
     border: 1px solid #eeeeee;
     color: #bbbbbb;
     text-decoration: none; }
-    /* line 70, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+    /* line 72, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
     .welcome > a::before {
       font-family: "icomoon";
       float: left; }
-    /* line 73, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+    /* line 75, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
     .welcome > a.blog::before {
       content: "\e600"; }
-    /* line 75, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+    /* line 77, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
     .welcome > a.github::before {
       content: "\e601"; }
-    /* line 77, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+    /* line 79, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
     .welcome > a.e-mail::before {
       content: "\e602"; }
-    /* line 80, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+    /* line 82, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
     .welcome > a:hover {
       -webkit-box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.1); }
 
 @-moz-keyframes welcome {
-  /* line 84, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 86, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   from {
     -moz-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 87, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 89, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   50% {
     -moz-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 90, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 92, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   82.5% {
     -moz-transform: scale(1.03, 1.03);
     transform: scale(1.03, 1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1; }
 
-  /* line 94, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 96, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   to {
     -moz-transform: scale(1, 1);
     transform: scale(1, 1); } }
 
 @-webkit-keyframes welcome {
-  /* line 84, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 86, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   from {
     -webkit-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 87, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 89, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   50% {
     -webkit-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 90, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 92, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   82.5% {
     -webkit-transform: scale(1.03, 1.03);
     transform: scale(1.03, 1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1; }
 
-  /* line 94, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 96, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   to {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1); } }
 
 @-o-keyframes welcome {
-  /* line 84, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 86, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   from {
     -o-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 87, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 89, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   50% {
     -o-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 90, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 92, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   82.5% {
     -o-transform: scale(1.03, 1.03);
     transform: scale(1.03, 1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1; }
 
-  /* line 94, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 96, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   to {
     -o-transform: scale(1, 1);
     transform: scale(1, 1); } }
 
 @-ms-keyframes welcome {
-  /* line 84, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 86, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   from {
     -ms-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 87, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 89, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   50% {
     -ms-transform: scale(0, 0);
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 90, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 92, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   82.5% {
     -ms-transform: scale(1.03, 1.03);
     transform: scale(1.03, 1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1; }
 
-  /* line 94, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 96, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   to {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1); } }
 
 @keyframes welcome {
-  /* line 84, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 86, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   from {
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 87, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 89, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   50% {
     transform: scale(0, 0);
     opacity: 0; }
 
-  /* line 90, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 92, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   82.5% {
     transform: scale(1.03, 1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1; }
 
-  /* line 94, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
+  /* line 96, /Users/Dane/Code/avidonline/source/stylesheets/all.css.sass */
   to {
     transform: scale(1, 1); } }
