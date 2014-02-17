@@ -31,19 +31,21 @@ $mobile-layout  : $total-columns 30em
 body
   background: $color-background
   font-family: 'Oxygen', sans-serif
+  padding: 0.75em
   color: $text-color-body
   text-align: center
 
 h1
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
   color: $color-highlight
-  margin: 3em 0 0
+  margin: 1em 0 0
   font-weight: 700
+  +adjust-font-size-to(24px)
   &::before
     content: '\e603'
     font-family: 'icomoon'
     display: block
-    +adjust-font-size-to(22px)
+    +adjust-font-size-to(28px)
     +animation(welcome 1s)
 
 p
@@ -62,7 +64,7 @@ p
     +border-radius(0.75em)
     padding: 0.75em
     margin: 0.75em auto
-    width: 25em
+    width: 18em
     border: 1px solid #eee
     color: $text-color-lighter
     text-decoration: none

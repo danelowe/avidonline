@@ -44,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google_analytics.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="google_analytics.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/partials/google_analytics.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="756">
+            <state line="7" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css.sass" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="26" selection-start="903" selection-end="903" vertical-scroll-proportion="0.89285713" vertical-offset="30" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -78,12 +87,12 @@
         <option value="$PROJECT_DIR$/source/stylesheets/font.css.sass" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/source/stylesheets/all.css.sass" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/source/CNAME" />
         <option value="$PROJECT_DIR$/readme.markdown" />
         <option value="$PROJECT_DIR$/source/layouts/layout.html.haml" />
         <option value="$PROJECT_DIR$/source/partials/google_analytics.html.haml" />
+        <option value="$PROJECT_DIR$/source/stylesheets/all.css.sass" />
       </list>
     </option>
   </component>
@@ -147,6 +156,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avidonline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avidonline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="865" selection-end="865" vertical-scroll-proportion="0.65384614" vertical-offset="180" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="53" selection-start="80" selection-end="80" vertical-scroll-proportion="0.05952381" vertical-offset="0" max-vertical-offset="756">
@@ -405,7 +425,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/partials/google_analytics.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="756">
+        <state line="7" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="26" selection-start="903" selection-end="903" vertical-scroll-proportion="0.89285713" vertical-offset="30" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
